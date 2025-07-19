@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pawtastic Portraits</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="gallery-title"><center>Pawtastic Portraits 🐾</center></h1>
+    <p class="subtitle"><center>Explore the majestic charm of our furry companions</center></p>
+    <div class="filter-buttons">
+      <button data-filter="all" class="active">All</button>
+      <button data-filter="labrador">Labrador</button>
+      <button data-filter="golden">Golden Retriever</button>
+      <button data-filter="husky">Husky</button>
+      <button data-filter="german">German Shepherd</button>
+      <button data-filter="poodle">Poodle</button>
+      <button data-filter="bulldog">Bulldog</button>
+    </div>
+  </header>
+
+  <section class="gallery">
+    <div class="image-card labrador"><img src="images/labrador1.jpg" alt="Labrador" /></div>
+    <div class="image-card labrador"><img src="images/labrador2.jpg" alt="Labrador" /></div>
+
+    <div class="image-card golden"><img src="images/golden1.jpg" alt="Golden Retriever" /></div>
+    <div class="image-card golden"><img src="images/golden2.jpg" alt="Golden Retriever" /></div>
+
+    <div class="image-card husky"><img src="images/husky1.jpg" alt="Husky" /></div>
+    <div class="image-card husky"><img src="images/husky2.jpg" alt="Husky" /></div>
+
+    <div class="image-card german"><img src="images/german1.jpg" alt="German Shepherd" /></div>
+    <div class="image-card german"><img src="images/german2.jpeg" alt="German Shepherd" /></div>
+
+    <div class="image-card poodle"><img src="images/poodle1.jpg" alt="Poodle" /></div>
+    <div class="image-card poodle"><img src="images/poodle2.jpg" alt="Poodle" /></div>
+
+    <div class="image-card bulldog"><img src="images/bulldog1.jpg" alt="Bulldog" /></div>
+    <div class="image-card bulldog"><img src="images/bulldog2.jpg" alt="Bulldog" /></div>
+  </section>
+
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <span class="close">&times;</span>
+    <img class="lightbox-img" />
+    <button class="prev">&#10094;</button>
+    <button class="next">&#10095;</button>
+  </div>
+
+  <footer>
+    <p><center>Made with ❤️ for dog lovers</center></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
